@@ -135,13 +135,18 @@ diabetes-prediction/
 
 ## Results
 
-> _Add your model performance metrics here after running the notebooks._
+Model performance on the diabetes prediction dataset:
 
-| Model | Accuracy | Precision | Recall | F1-Score |
-|-------|----------|-----------|--------|----------|
-| Logistic Regression | — | — | — | — |
-| Random Forest | — | — | — | — |
-| XGBoost | — | — | — | — |
+| Model | Accuracy |
+|-------|----------|
+| **XGBoost** 🏆 | 96.23% |
+| Random Forest | 95.64% |
+| Decision Tree | 94.51% |
+| KNN | 88.84% |
+| Logistic Regression | 87.92% |
+| SVM | 87.29% |
+
+> Best model: **XGBoost** with 96.23% accuracy
 
 ## Contributing
 
